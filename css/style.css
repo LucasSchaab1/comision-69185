@@ -4,10 +4,16 @@ background-color: burlywood;
 }
 
 /**estilos sobre el main**/
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    row-gap: 10px;
+}
 main img{
-    width: 30%;
-    height: 30%;
-    border: 1px solid black;
+    width: 20vh;
+    height: 20vh;
 
 }
 
@@ -21,11 +27,12 @@ main img{
 .navbarItem{
     display: flex;
     background-color: saddlebrown;
-    border: 1px solid black;
     margin: 10px;
     padding: 10px;
-    border-bottom: 1px solid saddlebrown;
-    border-style: outset;
+    border-radius: 5px;
+    text-decoration: none;
+    
+    
     justify-content: center;
 }
 
@@ -51,4 +58,5 @@ text-align: center;
 /**estilos de footer**/
 footer{
     justify-items: center;
+    font-weight: 900;
 }
