@@ -1,0 +1,54 @@
+/**estilos sobre el body**/
+body{
+background-color: burlywood;
+}
+
+/**estilos sobre el main**/
+main img{
+    width: 30%;
+    height: 30%;
+    border: 1px solid black;
+
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.navbarItem{
+    display: flex;
+    background-color: saddlebrown;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid saddlebrown;
+    border-style: outset;
+    justify-content: center;
+}
+
+/**Estilos sobre el titulo principal**/
+h1{
+    background-color: saddlebrown;
+    text-align: center;
+    color: black;
+}
+
+/**estilos sobre parrafo**/
+p{
+    text-align: justify;
+    color: black;
+}
+
+/**estilo de la lista**/
+li{
+list-style: none;
+text-align: center;
+}
+
+/**estilos de footer**/
+footer{
+    justify-items: center;
+}
