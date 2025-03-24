@@ -6,34 +6,36 @@ background-color: burlywood;
 /**estilos sobre el main**/
 main{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     align-items: center;
-    row-gap: 10px;
-}
-main img{
-    width: 20vh;
-    height: 20vh;
 
+}
+
+main img{
+    display: flex;
+    width: 100%;
+    height: 100%;
 }
 
 .navbar{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex-wrap: wrap;
-
-
+    width: 55vh;
 }
 
 .navbarItem{
-    display: flex;
     background-color: saddlebrown;
-    margin: 10px;
+    margin: 5px;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
-    
-    
-    justify-content: center;
+    color: black;
+    font-weight: bold;
+
+}
+.navbarItem:hover{
+    background-color: rgb(138, 86, 49);
 }
 
 /**Estilos sobre el titulo principal**/
@@ -41,6 +43,10 @@ h1{
     background-color: saddlebrown;
     text-align: center;
     color: black;
+}
+
+h2{
+    text-align: center;
 }
 
 /**estilos sobre parrafo**/
@@ -51,12 +57,22 @@ p{
 
 /**estilo de la lista**/
 li{
-list-style: none;
-text-align: center;
+text-align: justify;
 }
 
 /**estilos de footer**/
 footer{
     justify-items: center;
     font-weight: 900;
+}
+
+.imgsocios{
+    display: flex;
+    background-color: burlywood;
+    justify-content: center;
+}
+
+.clientlist{
+list-style: square;
+list-style-position: inside;
 }
