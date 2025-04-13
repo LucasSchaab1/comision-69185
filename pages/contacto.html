@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+
+    <!--Link de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <!--Link de CSS-->
     <link rel="stylesheet" href="../css/style.css">
+
+    <title>Contacto</title>
+    
 </head>
 <body>
     <main>
@@ -29,38 +36,44 @@
         <div>🕒 Horario de atención: Lunes a viernes de 09.00 hs. a 18.00 hs.</div>
         <div>También puedes enviarnos tu consulta a través del formulario de contacto y nos pondremos en comunicación contigo a la brevedad.</div>
         </p>
-<form action="/submit" method="post"></form>
-    <div>
+
+<form class="form" action="/submit" method="post">
+    <div class="form__name">
         <label for="name">Nombre:</label>
         <input type="text">
     </div>
-    <div>
+    <div class="form__lastname">
         <label for="last name">Apellido:</label>
         <input type="text">
     </div>
-    <div>
-        <label for="email">Correo electronico:</label>
+    <div class="form__email">
+        <label for="email">Correo E:</label>
         <input type="email" name="" id="">
     </div>
-    <div>
+    <div class="form__phone">
         <label for="phone">Telefono:</label>
         <input type="text">
     </div>
-    <div>
+    <div class="form__sex">
         <label for="sexo">Masculino:</label>
         <input type="checkbox" name="" id="">
 
         <label for="sexo">Femenino:</label>
         <input type="checkbox" name="" id="">
 
-        <label for="sexo">Prefiero no decir:</label>
+        <label class="form__sex__nd" for="sexo">Prefiero no decir:</label>
         <input type="checkbox" name="" id="">
     </div>
-    <div>
+    <div class="form__consult">
         <label for="mensaje">Consulta:</label>
         <textarea name="mensaje" id="mensaje"></textarea>
     </div>
-
+    <div class="button">
+        <button class="button__consultar">
+            <p class="text-center">CONSULTAR</p>
+        </button>
+    </div>
+    </form>
 </body>
 <footer>
     <p>® Todos los derechos reservados.</p>

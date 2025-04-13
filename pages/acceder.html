@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acceder</title>
+
+    <!--Link de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <!--Link de CSS-->
     <link rel="stylesheet" href="../css/style.css">
+
+    <title>Acceder</title>
+    
 </head>
 <body>
     <main>
@@ -21,24 +28,27 @@
             </ul>
         </div>
     </main>
-    <h1>Acceso interno</h1>
-    
-        </div>
-
-        <p>Esta sección está destinada exclusivamente a los miembros de nuestro estudio jurídico. A través de este acceso, nuestro equipo puede gestionar documentación, acceder a información interna y coordinar tareas de manera eficiente y segura. Si tienes inconvenientes para ingresar, comunícate con el área de soporte.
-        </p>
-    <form action="/submit" method="post">
-
-        <label for="usuario">Usuario:</label>
-        <input type="usuario" name="usuario" id="usuario">
-
-        <label for="password">Contraseña:</label>
-        <input type="password" name="password" id="password">
-
-        <label for="Ingresar"></label>
-        <input type="button" value="Ingresar">
-    </form>
+        <h1>Acceso interno</h1>
     </main>
+        </div>
+            <p>Esta sección está destinada exclusivamente a los miembros de nuestro estudio jurídico. A través de este acceso, nuestro equipo puede gestionar documentación, acceder a información interna y coordinar tareas de manera eficiente y segura. Si tienes inconvenientes para ingresar, comunícate con el área de soporte.
+            </p>
+        <div class="text-center">
+            <form class="form__acceder" action="/submit" method="post">
+
+                <label for="usuario">Usuario:</label>
+                <input type="usuario" name="usuario" id="usuario">
+
+                <label for="password">Contraseña:</label>
+                <input type="password" name="password" id="password">
+            </form>
+            <div class="button">
+                <button class="button__consultar">
+                    <p class="text-center">Ingresar</p>
+                </button>
+            </div>
+</div>
+    
 </body>
 <footer>
     <p>® Todos los derechos reservados.</p>
