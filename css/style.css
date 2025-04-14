@@ -169,9 +169,6 @@ background-color:saddlebrown
     font-weight: 600;
 }
 
-
-
-
 /**media para tabletas**/
 @media  (min-width: 600px) {
     body {
@@ -179,8 +176,8 @@ background-color:saddlebrown
     main{
       display: flex;
       flex-direction: column;
-      
     }
+
     main img{
       margin: 0,5vh;
 
@@ -190,7 +187,6 @@ background-color:saddlebrown
       grid-template-columns: 1fr;
       text-align: center;
     }
-    
 }
 
 /**media para celulares**/
